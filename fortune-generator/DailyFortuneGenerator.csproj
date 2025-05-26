@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>fortune.ico</ApplicationIcon>
+    <AssemblyTitle>Daily Fortune Generator</AssemblyTitle>
+    <AssemblyDescription>A fun desktop app that generates personalized fortunes</AssemblyDescription>
+    <AssemblyCompany>Fortune Apps Inc.</AssemblyCompany>
+    <AssemblyProduct>Daily Fortune Generator</AssemblyProduct>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+</Project>

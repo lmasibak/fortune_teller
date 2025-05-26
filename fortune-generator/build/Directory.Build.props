@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <Company>Fortune Apps Inc.</Company>
+    <Product>Daily Fortune Generator</Product>
+    <Copyright>Copyright © 2024 Fortune Apps Inc.</Copyright>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Authors>Fortune Apps Inc.</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/yourusername/daily-fortune-generator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yourusername/daily-fortune-generator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>fortune;desktop;winforms;entertainment;fun</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <WarningsNotAsErrors />
+  </PropertyGroup>
+</Project>

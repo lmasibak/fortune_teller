@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Assets\fortune.ico</ApplicationIcon>
+    <AssemblyTitle>Daily Fortune Generator</AssemblyTitle>
+    <AssemblyDescription>A fun desktop app that generates personalized fortunes</AssemblyDescription>
+    <AssemblyCompany>Fortune Apps Inc.</AssemblyCompany>
+    <AssemblyProduct>Daily Fortune Generator</AssemblyProduct>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Copyright>Copyright © 2024 Fortune Apps Inc.</Copyright>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>DailyFortuneGenerator</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Fortune Apps Inc.</Authors>
+    <PackageDescription>A fun desktop application that generates personalized fortunes based on user input with optional randomness and probabilities.</PackageDescription>
+    <PackageTags>fortune;desktop;winforms;entertainment;fun</PackageTags>
+    <RepositoryUrl>https://github.com/yourusername/daily-fortune-generator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
